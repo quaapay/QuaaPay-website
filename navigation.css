@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navigation{
+position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    width: 80%;
+    height: 10%;
+
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+top: 5%;
+left: 15%;
+z-index: 4;
+}
+
+#logo{
+    position: absolute;
+    width: 30%;
+    left: -15%;
+    border-radius: 15px;
+}
+.home{
+    position: relative;
+    transition: 250ms linear ;
+}
+
+.home::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0.5);
+    transform-origin:center ;
+}
+
+.home:hover::after{
+    transform: scale(0.8);
+}
+
+
+/* our.our-team hover effect */
+.our-team{
+    position: relative;
+    transition: 250ms linear ;
+    bottom: 0;
+}
+
+.our-team::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0.5);
+    transform-origin:center ;
+}
+
+.our-team:hover::after{
+    transform: scale(0.8);
+}
+
+
+/* our.our-team hover effect */
+.about-us{
+    position: relative;
+    transition: 250ms linear ;
+    bottom: 0;
+}
+
+.about-us::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0.5);
+    transform-origin:center ;
+}
+
+.about-us:hover::after{
+    transform: scale(0.8);
+}
+
+
+/* terms&policies hover effect */
+.terms-policy{
+    position: relative;
+    transition: 250ms linear ;
+    bottom: 0;
+}
+
+.terms-policy::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0.5);
+    transform-origin:center ;
+}
+
+.terms-policy:hover::after{
+    transform: scale(0.8);
+}
+
+
+
+/* download hover effect */
+.download{
+    position: relative;
+    transition: 250ms linear ;
+    bottom: 0;
+}
+
+.download::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-bottom: 2px solid black;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0.5);
+    transform-origin:center ;
+}
+
+.download:hover::after{
+    transform: scale(0.8);
+}
+
+
+.login-btn{
+  
+    padding: 12px 25px;
+    background: transparent;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.nav-slide{
+    position:fixed;
+    width: 70%;
+    height: 12vh;
+    bottom: 2%;
+    left: 10%;
+  background: rgba(0,0,0,0.1);;
+    border-radius: 20px;
+    z-index: 4;
+}
+
+.our-development{
+ position: absolute;
+ display: inline-block;
+ padding: 25px 70px;
+ 
+    border-radius: 20px;
+    top: 15%;
+    left: 10%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+   opacity: 0.7;
+    transition: 250ms linear;
+    cursor: pointer;
+}
+
+.our-development:hover{
+    background: white;
+    font-weight: 900;
+    opacity: 1;
+}
+
+
+.solving-problems{
+    position: absolute;
+    display: inline-block;
+    padding: 25px 70px;
+    
+       border-radius: 20px;
+       top: 15%;
+       left: 40%;
+       text-transform: capitalize;
+       font-size: 1.2rem;
+      opacity: 0.7;
+       transition: 250ms linear;
+       cursor: pointer;
+   }
+   
+   .solving-problems:hover{
+       background: white;
+
+       font-weight: 900;
+       opacity: 1;
+   }
+
+   
+.advertise-easily{
+    position: absolute;
+    display: inline-block;
+    padding: 25px 70px;
+    
+       border-radius: 20px;
+       top: 15%;
+       left: 70%;
+       text-transform: capitalize;
+       font-size: 1.2rem;
+      opacity: 0.7;
+       transition: 250ms linear;
+       cursor: pointer;
+   }
+   
+   .advertise-easily:hover{
+       background: white;
+
+       font-weight: 900;
+       opacity: 1;
+   }

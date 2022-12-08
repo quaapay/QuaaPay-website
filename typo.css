@@ -1,0 +1,80 @@
+.typography{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    font-family: 'Varela Round', sans-serif;
+}
+.main{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.sub{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.ad-btn{
+   background: #dd2100;
+    padding: 30px 30px;
+    border-radius: 10px;
+    transform: translateY(10%);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.ad-btn:hover{
+    opacity: 0.9;
+}
+
+
+.sell-btn{
+    background: transparent;
+    padding: 30px 45px;
+    border-radius: 10px;
+    transform: translateY(10%);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.available{
+    position: absolute;
+    width: 35%;
+    height: 10vh;
+    left: 12%;
+    top: 40%;
+    transform: translateY(30%);
+}
+
+.app-store{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 10vh;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+.play-store{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 10vh;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    left: 32%;
+}
+
+.play-store-typo{
+    text-align: left;
+}
+
